@@ -115,6 +115,7 @@ The time series plot shows significant fluctuations in total visit duration over
 ---
 
 ## 🔄 Box-Cox Transformation
+<img width="627" height="311" alt="image" src="https://github.com/user-attachments/assets/83defb27-a03d-452a-8136-e0e471f039d3" />
 
 Box-Cox transformation was applied to stabilize variance and improve data distribution.
 
@@ -173,7 +174,7 @@ Data was split into:
 
 | Model        | MAE     | RMSE    | MAPE    |
 | ------------ | ------- | ------- | ------- |
-| ARIMA(6,2,1) | 315.504 | 392.954 | 143.60% |
+| ARIMA(6,2,1) | 138.603 | 178.875 | 143.60% |
 
 ---
 
@@ -190,6 +191,7 @@ The ARIMA(6,2,1) model was used to forecast school visits for the next 20 days.
 | 2024-10-29 | 426.77   |
 
 The forecast indicates a relatively stable trend compared to the historical data, which showed more extreme fluctuations.
+<img width="597" height="201" alt="image" src="https://github.com/user-attachments/assets/456d9348-d86a-46e4-a3a9-7df164890b7b" />
 
 ---
 
